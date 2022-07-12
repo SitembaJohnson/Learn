@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Sitemba Portofolio</title>
+    <title>Portfolio website</title>
     <link rel="stylesheet" type="text/css" href="portofolio.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,13 +20,14 @@
         <nav>
             <h2 class="logo">Portfo<span>lio</span></h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#"><a href="register.html" target="_self">Account</a></a>
+                </li>
+                <li><a href="#">About Me</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-            <a href="#" class="btn">Subscribe</a>
+            <a href="#" class="btn">Subscribe To Newsletter</a>
         </nav>
 
         <div class="content">
@@ -41,6 +42,102 @@
             </div>
         </div>
     </div>
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header>Login</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password?</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Login</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="/home/sitemba/Code/Portofolio/google.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Signup Form -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Signup</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Create password" class="password">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Confirm password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Signup</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="/home/sitemba/Code/Portofolio/google.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="register.js"></script>
 
     <!----About section start---->
     <section class="about">
@@ -117,7 +214,7 @@
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-dribbble"></i></a>
         </div>
-        <p class="end">CopyRight By Sitemba Johnson</p>
+        <p class="end">CopyRight Sitemba Johnson</p>
     </footer>
 </body>
 
